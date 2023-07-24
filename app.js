@@ -10,7 +10,7 @@ app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
 
 mongoose.set('strictQuery', false);
-mongoose.connect("mongodb+srv://aliahsan_raha:amalam928817@cluster0.udlqg3k.mongodb.net/DATABASE=customerDB?retryWrites=true&w=majority", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://my_username:my_password@cluster0.udlqg3k.mongodb.net/DATABASE=customerDB?retryWrites=true&w=majority", {useNewUrlParser: true});
 //previous mongoose connect line we used. It used to send the data when we were logging through localhost
 // mongoose.connect("mongodb+srv://aliahsan_raha:amal9288@cluster0.udlqg3k.mongodb.net/customerDB", {useNewUrlParser: true});
 const customerSchema = mongoose.Schema({
