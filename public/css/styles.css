@@ -1,0 +1,182 @@
+h1{
+  font-size: 3.5rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+.navbar-brand {
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 3%;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.colored-section {
+  background-color: transparent;
+  color: #000000;
+}
+
+.colored-section-cta {
+  background-color: #000000;
+  color: #fff;
+}
+
+#title {
+  background-color: #000000;
+  color: #fff;
+  text-align: left;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-title {
+  padding: 0 18px;
+}
+
+.title_image{
+  width: 93%;
+  position: absolute;
+  left: 20%;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+  text-align: center;
+}
+
+.icon {
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+#testimonials {
+  background-color: #5A5A5A;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #fff;
+  text-align: center;
+}
+
+.testimonial-client-name {
+  margin: 10px 0px;
+  text-align: center;
+  font-style: italic;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.price-card-heading{
+  background-color: #5A5A5A;
+  text-align: center;
+  color: #fff;
+}
+
+.starting-from{
+  font-size: 12px;
+
+}
+
+.pricing-body-text{
+  text-align: left;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-button{
+  color: #fff;
+  text-decoration:none;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+
+
+#cta-text{
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.form{
+  margin-bottom: 20px;
+}
+
+.cta-button{
+  align-items: center;
+}
+
+.icon:hover {
+  color: #5A5A5A;
+}
+
+
+
+.middle-footer-icons{
+  margin-left: 2%;
+}
+
+.footer-part{
+  text-align: center;
+}
+
+.failure-page-icons{
+  margin-top: 1%;
+  margin-left: 1.5%;
+}
+
+.other-connectivity-means{
+  margin-left: 0px;
+  margin-top: 2%;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .title_image {
+    position: static;
+    transform: rotate(0);
+    width: 120%
+  }
+}
